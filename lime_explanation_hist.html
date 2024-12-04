@@ -37089,25 +37089,25 @@
 /***/ })
 /******/ ]);
 //# sourceMappingURL=bundle.js.map </script></head><body>
-        <div class="lime top_div" id="top_divWAKBHHRQDP0D7L2"></div>
+        <div class="lime top_div" id="top_divRSXBXL8JK7RT9U1"></div>
         
         <script>
-        var top_div = d3.select('#top_divWAKBHHRQDP0D7L2').classed('lime top_div', true);
+        var top_div = d3.select('#top_divRSXBXL8JK7RT9U1').classed('lime top_div', true);
         
             var pp_div = top_div.append('div')
                                 .classed('lime predict_proba', true);
             var pp_svg = pp_div.append('svg').style('width', '100%');
-            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.9999996842667566, 3.1573324340985917e-07]);
+            var pp = new lime.PredictProba(pp_svg, ["0", "1"], [0.9999968028184588, 3.1971815411895862e-06]);
             
         
         var exp_div;
             var exp = new lime.Explanation(["0", "1"]);
         
                 exp_div = top_div.append('div').classed('lime explanation', true);
-                exp.show([["TotalDebtToIncomeRatio > 0.32", -0.15106291835554164], ["AnnualIncome <= -0.68", -0.09462840160314043], ["BankruptcyHistory <= -0.23", 0.06928558057174168], ["TotalAssets <= -0.55", -0.06332848482616993], ["-0.09 < InterestRate <= 0.62", -0.061286355230952036], ["LengthOfCreditHistory <= -0.83", -0.05651233360654635], ["EmploymentStatus_Unemployed <= 0.00", 0.04471255668882964], ["LoanAmount > 0.44", -0.03906423476402615], ["PreviousLoanDefaults > -0.33", 0.020772228180497697], ["MonthlyLoanPayment > 0.30", 0.01895144445357115]], 1, exp_div);
+                exp.show([["TotalDebtToIncomeRatio > 0.32", -0.2149070914007473], ["BankruptcyHistory <= -0.23", 0.14145333161412763], ["AnnualIncome <= -0.68", -0.14096174280301604], ["-0.09 < InterestRate <= 0.62", -0.10839408346380192], ["PreviousLoanDefaults > -0.33", -0.0941831293253439], ["LengthOfCreditHistory <= -0.83", -0.08857929927315224], ["TotalAssets <= -0.55", -0.08194291125359335], ["EmploymentStatus_Unemployed <= 0.00", 0.07396442701147198], ["LoanAmount > 0.44", -0.06049019634371389], ["0.13 < CreditScore <= 0.73", -0.04224676720449755]], 1, exp_div);
                 
         var raw_div = top_div.append('div');
-            exp.show_raw_tabular([["TotalDebtToIncomeRatio", "2.88", -0.15106291835554164], ["AnnualIncome", "-0.92", -0.09462840160314043], ["BankruptcyHistory", "-0.23", 0.06928558057174168], ["TotalAssets", "-0.70", -0.06332848482616993], ["InterestRate", "-0.05", -0.061286355230952036], ["LengthOfCreditHistory", "-1.31", -0.05651233360654635], ["EmploymentStatus_Unemployed", "0.00", 0.04471255668882964], ["LoanAmount", "2.62", -0.03906423476402615], ["PreviousLoanDefaults", "2.99", 0.020772228180497697], ["MonthlyLoanPayment", "1.54", 0.01895144445357115]], 1, raw_div);
+            exp.show_raw_tabular([["TotalDebtToIncomeRatio", "2.88", -0.2149070914007473], ["BankruptcyHistory", "-0.23", 0.14145333161412763], ["AnnualIncome", "-0.92", -0.14096174280301604], ["InterestRate", "-0.05", -0.10839408346380192], ["PreviousLoanDefaults", "2.99", -0.0941831293253439], ["LengthOfCreditHistory", "-1.31", -0.08857929927315224], ["TotalAssets", "-0.70", -0.08194291125359335], ["EmploymentStatus_Unemployed", "0.00", 0.07396442701147198], ["LoanAmount", "2.62", -0.06049019634371389], ["CreditScore", "0.73", -0.04224676720449755]], 1, raw_div);
         
         </script>
         </body></html>
