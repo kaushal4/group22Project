@@ -30,13 +30,9 @@ This dataset provides a comprehensive foundation for building models that predic
 
 ## Proposed Machine Learning Models
 The following machine learning models are proposed for this project:
-1. XGBoost
+1. Logistic
 2. CatBoost
 3. AdaBoost
-4. ExtraTreesClassifier
-5. GradientBoostingClassifier
-6. HistGradientBoostingClassifier
-7. LightGBM
-8. DecisionTree
-9. Random Forest
-10. Logistic Regression
+4. LightGBM
+5. MLP
+
