@@ -17,9 +17,7 @@ It contains 20,000 records with 36 attributes related to demographic information
 - Debt-to-income ratio
 - Previous loan defaults, and more.
 
-This dataset provides a comprehensive foundation for building models that predict:
-1. **Risk Score** (a regression problem)
-2. **Loan Approval Status** (a binary classification problem)
+This dataset provides a comprehensive foundation for building models that predict **Loan Approval Status** (a binary classification problem).
 
 ## Contributions
 1.  data exploration: Ruoqi Yan, Kaushal Damania
