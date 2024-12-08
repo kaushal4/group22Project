@@ -21,14 +21,12 @@ This dataset provides a comprehensive foundation for building models that predic
 1. **Risk Score** (a regression problem)
 2. **Loan Approval Status** (a binary classification problem)
 
-## Contributions
-1.  data exploration: Ruoqi Yan, Kaushal Damania
-2. Data preprocessing: Naveen Reddy Dyava, Kaushal Damania
-3. Model Training: Naveen Reddy Dyava
-4. Model Evaluation: Naveen Reddy Dyava, Kaushal Damania 
-5. Model Interpretation: Kaushal Damania
-6. Report: Naveen Reddy Dyava, Kaushal Damania
-
+## Group Members
+- Anusha Nandula
+- Avighna Suresh
+- Kaushal Damania
+- Naveen Reddy Dyava
+- Ruoqi Yang
 
 ## Proposed Machine Learning Models
 The following machine learning models are proposed for this project:
@@ -37,20 +35,4 @@ The following machine learning models are proposed for this project:
 3. AdaBoost
 4. LightGBM
 5. MLP
-
-## Running the project
-To run the project please follow the following instructions:
-```bash
-# create a python environment
-python3.10 -m venv .venv
-```
-```bash
-# Install the required packages
-pip install -r requirements.txt
-```
-```bash
-# activate the environment
-source .venv/bin/activate
-```
-You can now run any notebook in the project
 
